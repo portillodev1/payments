@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BuildingBlocks\BuildingBlocks.Persistence\BuildingBlocks.Persistence.csproj" />
+    <ProjectReference Include="..\..\src\BuildingBlocks\BuildingBlocks.Abstractions\BuildingBlocks.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Payments.Domain\Payments.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Payments.Infrastructure\Payments.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Payments.Application\Payments.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Payments.Module\Payments.Module.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Payments\Payments.Contracts\Payments.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Processing\Processing.Module\Processing.Module.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Processing\Processing.Application\Processing.Application.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Processing\Processing.Infrastructure\Processing.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Processing\Processing.Domain\Processing.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Modules\Processing\Processing.Contracts\Processing.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

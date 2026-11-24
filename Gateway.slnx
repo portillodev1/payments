@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Acquirer.Simulator/Acquirer.Simulator.csproj" />
+    <Project Path="src/Gateway.Host/Gateway.Host.csproj" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Abstractions/BuildingBlocks.Abstractions.csproj" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Messaging/BuildingBlocks.Messaging.csproj" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Persistence/BuildingBlocks.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Payments/">
+    <Project Path="src/Modules/Payments/Payments.Application/Payments.Application.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Contracts/Payments.Contracts.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Domain/Payments.Domain.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Infrastructure/Payments.Infrastructure.csproj" />
+    <Project Path="src/Modules/Payments/Payments.Module/Payments.Module.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Processing/">
+    <Project Path="src/Modules/Processing/Processing.Application/Processing.Application.csproj" />
+    <Project Path="src/Modules/Processing/Processing.Contracts/Processing.Contracts.csproj" />
+    <Project Path="src/Modules/Processing/Processing.Domain/Processing.Domain.csproj" />
+    <Project Path="src/Modules/Processing/Processing.Infrastructure/Processing.Infrastructure.csproj" />
+    <Project Path="src/Modules/Processing/Processing.Module/Processing.Module.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ArchitectureTests/ArchitectureTests.csproj" />
+    <Project Path="tests/IntegrationTests/IntegrationTests.csproj" />
+    <Project Path="tests/Payments.Domain.Tests/Payments.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
